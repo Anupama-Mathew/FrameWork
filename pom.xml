@@ -32,6 +32,27 @@
             <artifactId>selenium-server</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+        </dependency>
 
 
     </dependencies>
@@ -43,7 +64,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>SmokeTest1.xml</suiteXmlFile>
+                        <suiteXmlFile>Sanity.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
